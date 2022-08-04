@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: century ;
+    box-sizing: border-box;
+}
+.header{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../pexels-spacex-586067.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+ul{
+    list-style-type: none;
+    float: right;
+    margin-top: 25px;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+}
+ul li a:hover{
+    background-color: white;
+    color: black;
+}
+ul li.active a{
+    background-color: white;
+    color: black;
+}
+.logo p{
+    float: left;
+    margin-top: 15px;
+    font-weight: bold;
+    color: white;
+    border: 3px solid white;
+    border-style: inset;
+    margin-left: 20px;
+    padding: 5px 10px;
+}
+.main{
+    max-width: 1200px;
+}
+.title{
+    position: absolute;
+    top: 37%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+h1{
+    color: white;
+    font-size: 40px;
+}
+.button{
+    position: absolute;
+    top: 47%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+.btn{
+    border: 1px solid white;
+    padding: 10px 30px;
+    text-decoration: none;
+    color: white;
+}
+.btn:hover{
+    background-color: white;
+    color: black;
+}
+
+ul li ul li {
+    display: none;
+    text-decoration: none;
+    color: white;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+
+}
+ul li:hover ul li {
+    display: list-item;
+    margin  : 5px auto;
+    position: inherit;
+    writing-mode: horizontal-tb;
+}
